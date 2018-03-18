@@ -1,0 +1,18 @@
+header {
+    background-color: black;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+}
+
+.head_right {
+    font-size: 14px;
+}
+.subheader {
+    background-color: grey;
+    color: white;
+    font-family: 'Cormorant Garamond', serif;
+}

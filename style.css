@@ -1,18 +1,106 @@
+body {
+    background-color: rgb(117, 117, 117);
+    margin: 20px;
+}
+
 header {
-    background-color: black;
-    color: white;
+
+    height: 300px;
+    background-image: url("./images/aspen.jpg");
+    background-size: cover;
+    background-position: center;
+    opacity: 1;
     font-family: 'Raleway', sans-serif;
+    display: block;
+    align-items: center;
+    align-content: center;
+
 }
 
-h1 {
-    font-size: 36px;
+header nav.content {
+    padding-top: 100px;
+    opacity: .6;
+    background-color: white;
+    height: 200px;
+    text-align: center;
+    display: block;
+    align-items: center;
+    align-content: center;
 }
 
-.head_right {
-    font-size: 14px;
+nav.content h1 {
+
+    font-size: 48px;
+    color: black;
+    opacity: 1;
+    text-align: center;
+    align-items: center;
 }
-.subheader {
-    background-color: grey;
-    color: white;
+
+nav.content ul li {
+    padding: 3px;
+    list-style-type: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(104, 146, 216);
+}
+
+.about h3 {
+  text-align: center;
+}
+.about {
     font-family: 'Cormorant Garamond', serif;
+    text-align: justify;
+    background-color: white;
+    opacity: .5;
+    padding: 25px 25px;
+}
+
+.image_container {
+  background-color: black;
+  opacity: .75;
+  display: flex;
+  flex-wrap: wrap;
+  width: auto;
+}
+
+.image {
+  display: inline-block;
+  flex: 1;
+  width: 22.5%;
+  height: 150px;
+  padding: 10px 10px;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.career h3 {
+  text-align: center;
+}
+.career {
+    text-align: center;
+    border-bottom: 1px;
+    border-bottom-color: black;
+    color: black;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+footer {
+  text-align: center;
+  color: white;
+  opacity: .5;
 }

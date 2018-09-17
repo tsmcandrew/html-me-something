@@ -1,11 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: rgb(117, 117, 117);
-    margin: 20px;
+    margin: 0px 0px 20px 0px;
+    
 }
 
 header {
 
-    height: 300px;
+    height: 700px;
     background-image: url("./images/aspen.jpg");
     background-size: cover;
     background-position: center;
@@ -14,14 +19,14 @@ header {
     display: block;
     align-items: center;
     align-content: center;
-
+    
 }
 
 header nav.content {
-    padding-top: 100px;
+    padding-top: 275px;
     opacity: .6;
     background-color: white;
-    height: 200px;
+    height: 425px;
     text-align: center;
     display: block;
     align-items: center;
@@ -29,8 +34,8 @@ header nav.content {
 }
 
 nav.content h1 {
-
-    font-size: 48px;
+    
+    font-size: 60px;
     color: black;
     opacity: 1;
     text-align: center;
@@ -38,8 +43,13 @@ nav.content h1 {
 }
 
 nav.content ul li {
-    padding: 3px;
+    padding: 5px;
     list-style-type: none;
+}
+
+nav span img.icon {
+    display: inline-block;
+    padding: 3px 1px 0px 10px;
 }
 
 a:link {
@@ -58,31 +68,54 @@ a:hover {
 
 .about h3 {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 .about {
     font-family: 'Cormorant Garamond', serif;
-    text-align: justify;
-    background-color: white;
-    opacity: .5;
-    padding: 25px 25px;
+    text-align: center;
+    /*background-color: white;
+    opacity: .5;*/
+    padding: 40px 100px 100px 100px;
+}
+
+em {
+    font-style: italic;
+}
+
+.image_guide {
+    text-align: center;
+    font-family: 'Cormorant Garamond', serif; 
 }
 
 .image_container {
-  background-color: black;
-  opacity: .75;
+  /*background-color: rgb(117, 117, 117);
+  opacity: .5;*/
   display: flex;
   flex-wrap: wrap;
   width: auto;
+  padding: 25px 25px;
 }
 
 .image {
   display: inline-block;
   flex: 1;
   width: 22.5%;
-  height: 150px;
+  height: 200px;
   padding: 10px 10px;
 }
-
+.image1{
+    display: inline-block;
+    flex: 1;
+    height: 250px;
+    padding: 10px 10px;
+}
+.image2 {
+    display: inline-block;
+    /*align-items: center;*/
+    width: 45%;
+    height: 225px;
+    padding: 10px 27.25%;
+}  
 h3 {
     font-size: 32px;
     font-weight: bold;
@@ -90,8 +123,10 @@ h3 {
 
 .career h3 {
   text-align: center;
+  font-family: 'Raleway', sans-serif;
 }
 .career {
+    padding: 0px 100px; 
     text-align: center;
     border-bottom: 1px;
     border-bottom-color: black;
@@ -101,6 +136,6 @@ h3 {
 
 footer {
   text-align: center;
-  color: white;
+  color: black;
   opacity: .5;
 }
